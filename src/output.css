@@ -1058,6 +1058,18 @@
   .bg-\[\#EEF1F4\] {
     background-color: #EEF1F4;
   }
+  .bg-\[ur\] {
+    background-color: ur;
+  }
+  .bg-\[url\] {
+    background-color: url;
+  }
+  .bg-\[urlindex\.html\] {
+    background-color: urlindex.html;
+  }
+  .bg-\[urд\] {
+    background-color: urд;
+  }
   .bg-amber-50 {
     background-color: var(--color-amber-50);
   }
@@ -1433,6 +1445,9 @@
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
   }
+  .text-\[1px\] {
+    font-size: 1px;
+  }
   .text-\[2px\] {
     font-size: 2px;
   }
@@ -1509,11 +1524,17 @@
   .text-\[18\] {
     color: 18;
   }
+  .text-\[18p\] {
+    color: 18p;
+  }
   .text-\[20\] {
     color: 20;
   }
   .text-\[25\] {
     color: 25;
+  }
+  .text-\[px\] {
+    color: px;
   }
   .text-amber-200 {
     color: var(--color-amber-200);
@@ -2126,6 +2147,11 @@
   .md\:flex-row-reverse {
     @media (width >= 48rem) {
       flex-direction: row-reverse;
+    }
+  }
+  .md\:flex-nowrap {
+    @media (width >= 48rem) {
+      flex-wrap: nowrap;
     }
   }
   .md\:items-center {
@@ -2818,15 +2844,6 @@
       --tw-inset-ring-color: initial;
       --tw-inset-ring-shadow: 0 0 #0000;
       --tw-ring-inset: initial;
-      --tw-ring-offset-width: 0px;
-      --tw-ring-offset-color: #fff;
-      --tw-ring-offset-shadow: 0 0 #0000;
-      --tw-outline-style: solid;
-      --tw-duration: initial;
-    }
-  }
-}
-ring-inset: initial;
       --tw-ring-offset-width: 0px;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
