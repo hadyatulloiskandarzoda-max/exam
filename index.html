@@ -7,90 +7,171 @@
     <link rel="stylesheet" href="./src/output.css">
 </head>
 <body>
+<div class="w-full min-h-screen bg-[url('./bg.png')] bg-cover bg-center">
+  <div class="w-full min-h-screen bg-black/80 flex flex-col">
 
-<div class="w-full min-h-screen bg-[url('./bg.png')] bg-cover bg-center relative">
-    <div class="w-full min-h-screen bg-black/80 flex flex-col">
-      <div class="flex justify-between items-center p-5">
-        <img class="w-40 h-auto" src="./src/INNOMA.VC.png" alt="Logo">
+    
+    <div class="flex justify-between items-center px-4 md:px-16 lg:px-32 py-5">
+      <img class="w-28 md:w-36 lg:w-40" src="./src/INNOMA.VC.png" alt="Logo">
 
-        <div class="hidden md:flex text-white text-2xl gap-10">
-          <p>Кто мы?</p>
-          <p>Услуги</p>
-          <p>Акселератор</p>
-          <p>Новости</p>
-        </div>
-
-        <button class="bg-[#07AF91] text-white px-10 py-2 rounded-3xl">Войти</button>
-
-        <img class="block md:hidden w-10 h-10" src="./src/Group 929.png" alt="Menu">
+      <div class="hidden md:flex text-white text-lg lg:text-2xl gap-6 lg:gap-10">
+        <p>Кто мы?</p>
+        <p>Услуги</p>
+        <p>Акселератор</p>
+        <p>Новости</p>
       </div>
 
-      <div class="flex flex-col items-center justify-center text-center mt-20 md:mt-32 px-5 md:px-0 md:justify-center">
-        <div class="text-start">
-        <h1 class="text-white text-5xl md:text-5xl max-w-[620px]">
-          Запустите 
-          <span class="bg-[#07AF91] inline-block  mt-3 ">технологический IT-бизнес</span> 
-          на международных рынках
+      <button class="hidden md:block bg-[#07AF91] text-white px-6 lg:px-10 py-2 rounded-3xl">
+        Войти
+      </button>
+
+      <img class="md:hidden w-8 h-8" src="./src/Group 929.png" alt="Menu">
+    </div>
+
+    
+    <div class="flex-1 flex items-center justify-center px-4">
+      <div class="max-w-[700px] text-center md:text-left">
+
+        <h1 class="text-white text-3xl sm:text-4xl lg:text-5xl leading-tight">
+          Запустите
+          <span class="bg-[#07AF91] inline-block px-4 py-2 mt-3">
+            технологический IT-бизнес
+          </span>
+           международных рынках
         </h1>
-        <p class="text-white text-2xl mt-5">Открыт набор заявок на акселератор</p>
-        <button class="bg-[#61B5E4] text-white px-10 py-3 rounded-2xl mt-5 ">Подать заявку</button>
-      </div>
-    </div>
-  </div>
-  </div>
 
-  <div class="mt-20 px-5 md:px-32">
-    <h1 class="text-[#1178B2] text-4xl text-center md:text-start">Наши услуги</h1>
-
-    <div class="flex flex-col-reverse md:flex-row justify-center items-center gap-10 mt-10">
-      <div class="flex-1 text-center md:text-left">
-        <h2 class="text-[#1178B2]  text-2xl">Онлайн акселератор для IT бизнеса</h2>
-        <p class="mt-3 text-lg md:text-xl max-w-2xl mx-auto md:mx-0 font-light">
-          Одним из наших ключевых направлений является анализ технологических трендов на международных рынках. Мы проводим анализ на основе публичных исследований McKinsey, BCG, PWC, Deloitte, Accenture, BCG, EY, Crunchbase, Dealroom, F6S, PitchBook а также агрегируем и анализируем данные из открытых международных источников — патенты, медиа, научные публикации.
+        <p class="text-white text-lg sm:text-xl mt-5">
+          Открыт набор заявок на акселератор
         </p>
-        <button class="bg-[#07AF91] text-white px-10 py-3 rounded-2xl mt-5">Узнать подробнее</button>
+
+        <button class="bg-[#61B5E4] text-white px-8 sm:px-10 py-3 rounded-2xl mt-6">
+          Подать заявку
+        </button>
+
       </div>
-      <img class="flex-1 w-full max-w-lg h-auto" src="./src/kisspng-competitor-analysis-market-research-marketing-quan-5b102810d85456 1.png" alt="Service Image">
     </div>
 
-    <div class="flex flex-col md:flex-row justify-center items-center gap-10 lg:gap-50 mt-16">
-      <img class="flex-1 w-full max-w-lg h-auto" src="./src/rocket 1.png" alt="Analytics">
-      <div class="flex-1 text-center md:text-left">
-        <h2 class="text-[#1178B2] text-3xl">Аналитические исследования</h2>
-        <p class="mt-3 text-lg md:text-xl max-w-2xl mx-auto md:mx-0 font-light">
-          Онлайн программа акселерации IT бизнеса позволит вашей команде открыть новые горизонты и возможности для бизнеса на глобальных рынках. В результате программы вы получите возможность презентовать свой проект для международных инвесторов и локальных партнеров.
-        </p>
-        <button class="bg-[#07AF91] text-white px-10 py-3 rounded-2xl mt-5">Узнать подробнее</button>
-      </div>
+  </div>
+</div>
+
+
+<div class="mt-20 px-4 sm:px-6 md:px-16 lg:px-32">
+
+
+  <h1 class="text-[#1178B2] text-3xl sm:text-4xl font-bold text-center md:text-left">
+    Наши услуги
+  </h1>
+
+
+<div class="flex flex-col-reverse md:flex-row items-center gap-10 mt-12 px-4 md:px-0">
+  
+  <div class="flex-1 md:w-1/2 text-center md:text-left">
+    <h2 class="text-[#1178B2] text-xl sm:text-2xl font-semibold">
+      Онлайн акселератор для IT бизнеса
+    </h2>
+
+    <p class="mt-4 text-base sm:text-lg md:text-xl max-w-xl mx-auto md:mx-0 font-light">
+      Одним из наших ключевых направлений является анализ технологических
+      трендов на международных рынках. Мы проводим анализ на основе публичных
+      исследований McKinsey, BCG, PWC, Deloitte, Accenture, EY, Crunchbase,
+      Dealroom, F6S, PitchBook, а также данных из открытых источников.
+    </p>
+
+    <button class="bg-[#07AF91] text-white px-8 sm:px-10 py-3 rounded-2xl mt-6">
+      Узнать подробнее
+    </button>
+  </div>
+
+
+  <div class="flex-1 md:w-1/2 flex justify-center">
+    <img
+      class="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl h-auto"
+      src="./src/kisspng-competitor-analysis-market-research-marketing-quan-5b102810d85456 1.png"
+      alt="Service Image"
+    />
+  </div>
+</div>
+
+
+<div class="flex flex-col md:flex-row items-center gap-10 mt-12 px-4 md:px-0">
+
+  <div class="flex-1 md:w-1/2 flex justify-center">
+    <img
+      class="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl h-auto"
+      src="./src/rocket 1.png"
+      alt="Analytics"
+    />
+  </div>
+
+
+  <div class="flex-2 md:w-1/2 text-center  md:text-left">
+    <h2 class="text-[#1178B2] text-xl sm:text-2xl font-semibold">
+      Аналитические исследования
+    </h2>
+
+    <p class="mt-4 text-base sm:text-lg md:text-xl max-w-xl mx-auto md:mx-0 font-light">
+      Онлайн программа акселерации IT бизнеса позволит вашей команде открыть
+      новые горизонты и возможности для бизнеса на глобальных рынках.
+      В результате вы сможете презентовать проект международным инвесторам.
+    </p>
+
+    <button class="bg-[#07AF91] text-white px-8 sm:px-10 py-3 rounded-2xl mt-6">
+      Узнать подробнее
+    </button>
+  </div>
+</div>
+
+
+
+</div>
+
+<div class="mt-20 md:mt-32 px-5 sm:px-10 md:px-20 lg:px-32">
+  <h1 class="text-[#1178B2] text-3xl sm:text-4xl text-center md:text-start font-bold">
+    Для кого мы?
+  </h1>
+
+  <div class="flex flex-col md:flex-row justify-center items-stretch gap-6 mt-10">
+
+ 
+    <div class="bg-gray-100 w-full md:w-[320px] lg:w-[350px] shadow-2xl flex flex-col items-center p-6 rounded-lg">
+      <img class="w-20 sm:w-24 h-auto" src="./src/01.png" alt="IT проект">
+      <h3 class="text-center font-bold text-lg sm:text-xl mt-4">
+        IT проекты на стадии идеи
+      </h3>
+      <p class="text-center text-sm sm:text-base mt-2 text-gray-700">
+        Для стартапов, которые планируют привлечь международные инвестиции,
+        протестировать спрос и запустить продукт
+      </p>
     </div>
-  </div>
-  <div class="mt-32 px-7 md:px-32">
-    <h1 class="text-[#1178B2] text-4xl text-center md:text-start">Для кого мы?</h1>
 
-    <div class="flex flex-col md:flex-row justify-center items-center gap-6 mt-10">
-     
-      <div class="bg-gray-100 w-full md:w-[350px] h-auto shadow-2xl flex flex-col items-center p-6">
-        <img class="w-24 h-24" src="./src/01.png" alt="IT проект">
-        <h3 class="text-center font-bold text-[20px] mt-4">IT проекты на стадии идеи</h3>
-        <p class="text-center mt-2">Для стартапов, которые планируют привлечь международные инвестиции, протестировать спрос и запустить продукт</p>
-      </div>
-
-    
-      <div class="bg-gray-100 w-full md:w-[350px] h-auto shadow-2xl flex flex-col items-center p-6">
-        <img class="w-24 h-24" src="./src/02.png" alt="Innovation">
-        <h3 class="text-center font-bold text-[20px] mt-4">Инновационный бизнес</h3>
-        <p class="text-center mt-2">Для уже работающего технологического бизнеса, позволим найти новые международные рынки сбыта, масштабировать бизнес</p>
-      </div>
-
-    
-      <div class="bg-gray-100 w-full md:w-[350px] h-auto shadow-2xl flex flex-col items-center p-6">
-        <img class="w-24 h-24" src="./src/03.png" alt="Corporation">
-        <h3 class="text-center font-bold text-[20px] mt-4">Корпорации</h3>
-        <p class="text-center mt-2">Для уже работающего технологического бизнеса, позволим найти новые международные рынки сбыта, масштабировать бизнес</p>
-      </div>
+   
+    <div class="bg-gray-100 w-full md:w-[320px] lg:w-[350px] shadow-2xl flex flex-col items-center p-6 rounded-lg">
+      <img class="w-20 sm:w-24 h-auto" src="./src/02.png" alt="Innovation">
+      <h3 class="text-center font-bold text-lg sm:text-xl mt-4">
+        Инновационный бизнес
+      </h3>
+      <p class="text-center text-sm sm:text-base mt-2 text-gray-700">
+        Для уже работающего технологического бизнеса, поможем выйти на
+        международные рынки и масштабироваться
+      </p>
     </div>
+
+   
+    <div class="bg-gray-100 w-full md:w-[320px] lg:w-[350px] shadow-2xl flex flex-col items-center p-6 rounded-lg">
+      <img class="w-20 sm:w-24 h-auto" src="./src/03.png" alt="Corporation">
+      <h3 class="text-center font-bold text-lg sm:text-xl mt-4">
+        Корпорации
+      </h3>
+      <p class="text-center text-sm sm:text-base mt-2 text-gray-700">
+        Для крупных компаний, которые ищут новые технологии и рынки
+        для роста бизнеса
+      </p>
+    </div>
+
   </div>
-  </div>
+</div>
+
+  
 
  <div class="w-full h-auto md:h-screen bg-[url('./bgg.png')] bg-cover bg-center mt-20 relative flex items-center justify-center text-center px-4 md:px-8 py-16">
   <div class="max-w-[1200px]">
@@ -281,7 +362,125 @@
      <button class="bg-blue-950 rounded-2xl font-sans text-lg md:text-[17pxl text-white px-6 md:px-10 py-2 md:py-2  mt-5">Получить полную программу</button>
 </div>
   </div>
+  </div>
   
+<div class="w-full h-auto md:h-screen bg-[url('./ww.png')] bg-cover bg-center mt-20 relative px-4 md:px-8 py-16">
+  
+  <div class="flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-20 mt-10">
+
+ 
+    <div class="text-center lg:text-start">
+  <h1 class="text-3xl sm:text-4xl lg:text-5xl text-white max-w-xl mx-auto lg:mx-0">
+    Попадите на радары инвесторов и партнеров
+  </h1>
+
+  <p class="text-lg sm:text-xl lg:text-[22px] text-gray-100 max-w-xl mt-5 mx-auto lg:mx-0">
+    В результате прохождения обучения мы создадим профили вашей компании
+    на всех международных скаутинговых площадках
+  </p>
+
+  <button class="bg-green-600 text-white px-6 md:px-7 py-3 md:py-4 rounded-2xl mt-6">
+    Записаться в акселератор
+  </button>
+</div>
+
+
+<div class="flex flex-col gap-2 p-4 sm:p-6 md:p-10">
+  
+  <div class="flex gap-2 justify-center">
+    <img src="./src/Group 714.png" class="w-50 sm:w-24 md:w-60">
+    <img src="./src/Group 715.png" class="w-50 sm:w-24 md:w-60">
+  </div>
+
+  <div class="flex gap-2 justify-center">
+    <img src="./src/Group 716.png" class="w-50 sm:w-24 md:w-60">
+    <img src="./src/Group 717.png" class="w-50 sm:w-24 md:w-60">
+  </div>
+
+  <div class="flex gap-2 justify-center">
+    <img src="./src/Group 714.png" class="w-50 sm:w-24 md:w-60">
+    <img src="./src/Group 718.png" class="w-50 sm:w-24 md:w-60">
+  </div>
+</div>
+  </div>
+</div>
+<div class="mt-20 md:mt-32 px-5 sm:px-10 md:px-20 lg:px-32 gap">
+  <h1 class="text-[#1178B2] text-3xl sm:text-4xl text-center md:text-start font-bold">
+    Что вы получите в результате?
+  </h1>
+
+  <div class="flex flex-col md:flex-row justify-center items-stretch gap-6 mt-10">
+
+ 
+    <div class="bg-gray-100 w-full md:w-[320px] lg:w-[350px] shadow-2xl flex flex-col items-center p-6 rounded-lg">
+      <img class="w-20 sm:w-24 h-auto" src="./src/01.png" alt="IT проект">
+      <h3 class="text-center font-bold text-lg sm:text-xl mt-4">
+        Документы по продукту
+      </h3>
+      <p class="text-center text-sm sm:text-base mt-2 text-gray-700">
+       Бизнес план, отчет по анализу рынка, маркетинговый план, unit экономика, список гипотез, проект MVP
+      </p>
+    </div>
+
+   
+    <div class="bg-gray-100 w-full md:w-[350px] lg:w-[350px] shadow-2xl flex flex-col items-center p-6 rounded-lg">
+      <img class="w-20 sm:w-24 h-auto" src="./src/02.png" alt="Innovation">
+      <h3 class="text-center font-bold text-lg sm:text-xl mt-4">
+        Обратная связь от рынка
+      </h3>
+      <p class="text-center text-sm sm:text-base mt-2 text-gray-700">
+       Проведение исследования целевой аудитории позволит сформировать Product market fit
+      </p>
+    </div>
+
+   
+    <div class="bg-gray-100 w-full md:w-[320px] lg:w-[350px] shadow-2xl flex flex-col items-center p-6 rounded-lg">
+      <img class="w-20 sm:w-24 h-auto" src="./src/03.png" alt="Corporation">
+      <h3 class="text-center font-bold text-lg sm:text-xl mt-4">
+        Продвижение продукта
+      </h3>
+      <p class="text-center text-sm sm:text-base mt-2 text-gray-700">
+      Продвижение продукта через аналитические системы партнеров
+      </p>
+    </div>
+
+  </div>
+   <div class="flex flex-col md:flex-row justify-center items-stretch gap-6 mt-10">
+
+ 
+    <div class="bg-gray-100 w-full md:w-[320px] lg:w-[350px] shadow-2xl flex flex-col items-center p-6 rounded-lg">
+      <img class="w-20 sm:w-24 h-auto" src="./src/04.png" alt="IT проект">
+      <h3 class="text-center font-bold text-lg sm:text-xl mt-4">
+       Подписка на отчеты
+      </h3>
+      <p class="text-center text-sm sm:text-base mt-2 text-gray-700">
+       Подписка на аналитические отчеты по международным рынкам высокотехнологичных сфер
+      </p>
+    </div>
+
+   
+    <div class="bg-gray-100 w-full md:w-[350px] lg:w-[350px] shadow-2xl flex flex-col items-center p-6 rounded-lg">
+      <img class="w-20 sm:w-24 h-auto" src="./src/05.png" alt="Innovation">
+      <h3 class="text-center font-bold text-lg sm:text-xl mt-4">
+        Подписка на отчеты
+      </h3>
+      <p class="text-center text-sm sm:text-base mt-2 text-gray-700">
+        Подписка на аналитические отчеты по международным рынкам высокотехнологичных сфер
+      </p>
+    </div>
+
+   
+    <div class="bg-gray-100 w-full md:w-[320px] lg:w-[350px] shadow-2xl flex flex-col items-center p-6 rounded-lg">
+      <img class="w-20 sm:w-24 h-auto" src="./src/06.png" alt="Corporation">
+      <h3 class="text-center font-bold text-lg sm:text-xl mt-4">
+        Подписка на отчеты
+      </h3>
+      <p class="text-center text-sm sm:text-base mt-2 text-gray-700">
+              Подписка на аналитические отчеты по международным рынкам высокотехнологичных сфер
+      </p>
+    </div>
+
+</div>
    
 
 
